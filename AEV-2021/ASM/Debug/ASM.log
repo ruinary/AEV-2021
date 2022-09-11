@@ -1,0 +1,27 @@
+﻿Сборка начата 20.12.2021 18:35:23.
+Уровень детализации журнала: Normal.     1>Проект "D:\AEV-2021\AEV-2021\ASM\ASM.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\ASM.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       _MASM:
+       Целевой объект "_MASM" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\AEV-2021\AEV-2021\Debug\ASM.exe" /INCREMENTAL /ILK:"Debug\ASM.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\AEV-2021\AEV-2021\Debug\ASM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\AEV-2021\AEV-2021\Debug\ASM.lib" /MACHINE:X86 /NODEFAULTLIB:library Debug\gen.obj
+         LINK : не найден или не выполнена сборка D:\AEV-2021\AEV-2021\Debug\ASM.exe при последней инкрементной компоновке; выполняется полная компоновка
+     1>LINK : warning LNK4098: библиотека по умолчанию "libucrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+         ASM.vcxproj -> D:\AEV-2021\AEV-2021\Debug\ASM.exe
+       FinalizeBuildStatus:
+         Файл "Debug\ASM.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\ASM.tlog\ASM.lastbuildstate".
+     1>Сборка проекта "D:\AEV-2021\AEV-2021\ASM\ASM.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\AEV-2021\AEV-2021\ASM\ASM.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         LINK : warning LNK4098: библиотека по умолчанию "libucrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:00.68

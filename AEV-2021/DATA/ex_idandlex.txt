@@ -1,0 +1,36 @@
+main
+{
+	create str_ string = combine ["C o u r s e   W o r k   ", "A E V - 2021"];
+	speak [string]; breakl;breakl;
+
+	create int_ a = 1;
+	speak ["a = "];speak [a];
+	breakl;
+	create int_ aa = -1;
+	speak ["aa = "];speak [aa];
+	breakl;
+	create int_ b = 0o6;
+	speak ["b = "];speak [b];
+	breakl;
+	create int_ c = 1o6;
+	speak ["c = "];speak [c];
+	breakl;
+	create int_ d = 0b10;
+	speak ["d = "];speak [d];
+	breakl;
+	create int_ e = 1b10;
+	speak ["e = "];speak [e];
+	breakl;
+	create chr_ f = "A";
+	speak ["f = "];speak [f];
+	breakl;
+    	create str_ g = "BCD";
+	speak ["g = "];speak [g];
+	breakl;
+   	create bool_ h = true;
+	speak ["h = "];speak [h];
+	
+	breakl;breakl;
+	speak ["End of example."]; breakl;
+}
+

@@ -1,0 +1,9 @@
+fun№ction int_ aver [int_ n, int_ m] {}
+
+main
+{
+	create str_ string = combine ["C o u r s e   W o r k   ", "A E V - 2021"];
+	speak [string]; breakl;breakl;
+
+	speak ["End of example."]; breakl;
+}

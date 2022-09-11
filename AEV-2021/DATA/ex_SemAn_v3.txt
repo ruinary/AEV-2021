@@ -1,0 +1,7 @@
+main
+{
+	create string = combine ["C o u r s e   W o r k   ", "A E V - 2021"];
+	speak [string]; breakl;breakl;
+
+	speak ["End of example."]; breakl;
+}

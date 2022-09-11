@@ -1,0 +1,54 @@
+main
+{
+	create str_ string = combine ["C o u r s e   W o r k   ", "A E V - 2021"];
+	speak [string]; breakl;breakl;
+
+	create int_ a = 2;
+	create int_ b = 5;
+
+	create int_ res;
+
+	res = a + b;
+	speak [res]; breakl;
+
+	res = a - b;
+	speak [res]; breakl;
+
+	res = a * b;
+	speak [res]; breakl;
+
+	res = b / a;
+	speak [res]; breakl;
+
+	res = b % a;
+	speak [res]; breakl;
+
+	res = a*(2+b)/3;
+	speak [res]; breakl;
+
+	res = a*2+b/3;
+	speak [res]; breakl;
+
+	speak ["-----"]; breakl;
+
+	create bool_ c;
+	
+	where [a>b] {c = true;}
+	otherwise {c = false;}
+	speak [c]; breakl;
+
+	where [a<b] {c = true;}
+	otherwise {c = false;}
+	speak [c]; breakl;
+
+	where [a~b] {c = true;}
+	otherwise {c = false;}
+	speak [c]; breakl;
+
+	where [a#b] {c = true;}
+	otherwise {c = false;}
+	speak [c]; breakl;breakl;
+
+
+	speak ["End of example."]; breakl;
+}

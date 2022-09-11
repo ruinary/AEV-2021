@@ -1,0 +1,28 @@
+﻿Сборка начата 19.12.2021 23:42:45.
+Уровень детализации журнала: Normal.     1>Проект "D:\AEV-2021\AEV-2021\LIB\LIB.vcxproj" в узле 3 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "Debug\LIB.tlog\LIB.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "Debug\LIB.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"D:\AEV-2021\AEV-2021\Debug\LIB.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt LIB.cpp
+         LIB.cpp
+     1>D:\AEV-2021\AEV-2021\LIB\LIB.cpp(6,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\Lib.exe /OUT:"D:\AEV-2021\AEV-2021\Debug\LIB.lib" /NOLOGO /MACHINE:X86 Debug\LIB.obj
+         LIB.vcxproj -> D:\AEV-2021\AEV-2021\Debug\LIB.lib
+       FinalizeBuildStatus:
+         Файл "Debug\LIB.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LIB.tlog\LIB.lastbuildstate".
+     1>Сборка проекта "D:\AEV-2021\AEV-2021\LIB\LIB.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+       "D:\AEV-2021\AEV-2021\LIB\LIB.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\AEV-2021\AEV-2021\LIB\LIB.cpp(6,13): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+
+    Предупреждений: 1
+    Ошибок: 0
+
+Прошло времени 00:00:02.05
